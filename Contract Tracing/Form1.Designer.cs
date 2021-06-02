@@ -32,23 +32,24 @@ namespace Contract_Tracing
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.first_name = new System.Windows.Forms.TextBox();
+            this.last_name = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.age = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.email = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.address = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.contact_number = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.date = new System.Windows.Forms.TextBox();
+            this.time = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.body_temp = new System.Windows.Forms.TextBox();
+            this.enterButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -79,19 +80,19 @@ namespace Contract_Tracing
             this.label3.TabIndex = 2;
             this.label3.Text = "Last Name";
             // 
-            // textBox1
+            // first_name
             // 
-            this.textBox1.Location = new System.Drawing.Point(41, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(153, 23);
-            this.textBox1.TabIndex = 3;
+            this.first_name.Location = new System.Drawing.Point(41, 64);
+            this.first_name.Name = "first_name";
+            this.first_name.Size = new System.Drawing.Size(153, 23);
+            this.first_name.TabIndex = 3;
             // 
-            // textBox2
+            // last_name
             // 
-            this.textBox2.Location = new System.Drawing.Point(222, 64);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(161, 23);
-            this.textBox2.TabIndex = 4;
+            this.last_name.Location = new System.Drawing.Point(222, 64);
+            this.last_name.Name = "last_name";
+            this.last_name.Size = new System.Drawing.Size(161, 23);
+            this.last_name.TabIndex = 4;
             // 
             // label4
             // 
@@ -103,12 +104,12 @@ namespace Contract_Tracing
             this.label4.TabIndex = 5;
             this.label4.Text = "Age";
             // 
-            // textBox3
+            // age
             // 
-            this.textBox3.Location = new System.Drawing.Point(41, 144);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 6;
+            this.age.Location = new System.Drawing.Point(41, 144);
+            this.age.Name = "age";
+            this.age.Size = new System.Drawing.Size(100, 23);
+            this.age.TabIndex = 6;
             // 
             // label5
             // 
@@ -120,12 +121,12 @@ namespace Contract_Tracing
             this.label5.TabIndex = 7;
             this.label5.Text = "Email";
             // 
-            // textBox4
+            // email
             // 
-            this.textBox4.Location = new System.Drawing.Point(200, 143);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(187, 23);
-            this.textBox4.TabIndex = 8;
+            this.email.Location = new System.Drawing.Point(200, 143);
+            this.email.Name = "email";
+            this.email.Size = new System.Drawing.Size(187, 23);
+            this.email.TabIndex = 8;
             // 
             // label6
             // 
@@ -137,12 +138,12 @@ namespace Contract_Tracing
             this.label6.TabIndex = 9;
             this.label6.Text = "Address";
             // 
-            // textBox5
+            // address
             // 
-            this.textBox5.Location = new System.Drawing.Point(41, 205);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(342, 23);
-            this.textBox5.TabIndex = 10;
+            this.address.Location = new System.Drawing.Point(41, 205);
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(342, 23);
+            this.address.TabIndex = 10;
             // 
             // label7
             // 
@@ -154,12 +155,12 @@ namespace Contract_Tracing
             this.label7.TabIndex = 11;
             this.label7.Text = "Contact Number";
             // 
-            // textBox6
+            // contact_number
             // 
-            this.textBox6.Location = new System.Drawing.Point(41, 270);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(153, 23);
-            this.textBox6.TabIndex = 12;
+            this.contact_number.Location = new System.Drawing.Point(41, 270);
+            this.contact_number.Name = "contact_number";
+            this.contact_number.Size = new System.Drawing.Size(153, 23);
+            this.contact_number.TabIndex = 12;
             // 
             // label8
             // 
@@ -171,19 +172,19 @@ namespace Contract_Tracing
             this.label8.TabIndex = 13;
             this.label8.Text = "Date and Time";
             // 
-            // textBox7
+            // date
             // 
-            this.textBox7.Location = new System.Drawing.Point(222, 270);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 23);
-            this.textBox7.TabIndex = 14;
+            this.date.Location = new System.Drawing.Point(222, 270);
+            this.date.Name = "date";
+            this.date.Size = new System.Drawing.Size(100, 23);
+            this.date.TabIndex = 14;
             // 
-            // textBox8
+            // time
             // 
-            this.textBox8.Location = new System.Drawing.Point(328, 270);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 23);
-            this.textBox8.TabIndex = 15;
+            this.time.Location = new System.Drawing.Point(328, 270);
+            this.time.Name = "time";
+            this.time.Size = new System.Drawing.Size(100, 23);
+            this.time.TabIndex = 15;
             // 
             // label9
             // 
@@ -213,12 +214,22 @@ namespace Contract_Tracing
             this.label11.TabIndex = 18;
             this.label11.Text = "Body Temperature";
             // 
-            // textBox9
+            // body_temp
             // 
-            this.textBox9.Location = new System.Drawing.Point(41, 341);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 23);
-            this.textBox9.TabIndex = 19;
+            this.body_temp.Location = new System.Drawing.Point(41, 341);
+            this.body_temp.Name = "body_temp";
+            this.body_temp.Size = new System.Drawing.Size(136, 23);
+            this.body_temp.TabIndex = 19;
+            // 
+            // enterButton
+            // 
+            this.enterButton.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.enterButton.Location = new System.Drawing.Point(377, 350);
+            this.enterButton.Name = "enterButton";
+            this.enterButton.Size = new System.Drawing.Size(60, 60);
+            this.enterButton.TabIndex = 20;
+            this.enterButton.Text = "Enter";
+            this.enterButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -226,23 +237,24 @@ namespace Contract_Tracing
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(467, 437);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.enterButton);
+            this.Controls.Add(this.body_temp);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.time);
+            this.Controls.Add(this.date);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.contact_number);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.address);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.email);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.age);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.last_name);
+            this.Controls.Add(this.first_name);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -259,23 +271,25 @@ namespace Contract_Tracing
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox first_name;
+        private System.Windows.Forms.TextBox last_name;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox age;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox email;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox address;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox contact_number;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox date;
+        private System.Windows.Forms.TextBox time;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox body_temp;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button enterButton;
     }
 }
 
