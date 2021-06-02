@@ -97,7 +97,7 @@ namespace Contract_Tracing
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(41, 120);
+            this.label4.Location = new System.Drawing.Point(38, 120);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(37, 20);
             this.label4.TabIndex = 5;
@@ -122,7 +122,7 @@ namespace Contract_Tracing
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(196, 143);
+            this.textBox4.Location = new System.Drawing.Point(200, 143);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(187, 23);
             this.textBox4.TabIndex = 8;
@@ -131,7 +131,7 @@ namespace Contract_Tracing
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(41, 182);
+            this.label6.Location = new System.Drawing.Point(38, 182);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(66, 20);
             this.label6.TabIndex = 9;
@@ -148,7 +148,7 @@ namespace Contract_Tracing
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(41, 247);
+            this.label7.Location = new System.Drawing.Point(37, 247);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(125, 20);
             this.label7.TabIndex = 11;
@@ -165,7 +165,7 @@ namespace Contract_Tracing
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(260, 247);
+            this.label8.Location = new System.Drawing.Point(222, 247);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(111, 20);
             this.label8.TabIndex = 13;
@@ -224,6 +224,7 @@ namespace Contract_Tracing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(467, 437);
             this.Controls.Add(this.textBox9);
             this.Controls.Add(this.label11);
