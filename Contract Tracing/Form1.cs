@@ -39,6 +39,15 @@ namespace Contract_Tracing
             output.WriteLine(bodytempLabel.Text + ":" + " " + body_temp.Text);
 
             output.Close();
+            this.Hide();
+
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
+
+
+
+
+
         }
     }
 }
