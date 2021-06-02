@@ -16,6 +16,5 @@ namespace Contract_Tracing
         {
             InitializeComponent();
         }
-
     }
 }
