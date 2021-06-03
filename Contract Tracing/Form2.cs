@@ -16,6 +16,7 @@ namespace Contract_Tracing
         public Form2()
         {
             InitializeComponent();
+
         }
 
         private void richTextBox1_TextChanged(object sender, EventArgs e)
@@ -24,11 +25,6 @@ namespace Contract_Tracing
             richTextBox1.Text = outputFile.ReadToEnd();
 
             outputFile.Close();
-        }
-
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

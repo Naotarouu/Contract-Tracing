@@ -44,10 +44,32 @@ namespace Contract_Tracing
             Form2 form2 = new Form2();
             form2.ShowDialog();
 
+            form2 = null;
+            this.Show();
 
+            first_name.Clear();
+            last_name.Clear();
+            age.Clear();
+            email.Clear();
+            address.Clear();
+            contact_number.Clear();
+            date.Clear();
+            time.Clear();
+            body_temp.Clear();
 
+        }
 
-
+        private void clearButton(object sender, EventArgs e)
+        {
+            first_name.Clear();
+            last_name.Clear();
+            age.Clear();
+            email.Clear();
+            address.Clear();
+            contact_number.Clear();
+            date.Clear();
+            time.Clear();
+            body_temp.Clear();
         }
     }
 }

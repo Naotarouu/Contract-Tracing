@@ -50,6 +50,7 @@ namespace Contract_Tracing
             this.bodytempLabel = new System.Windows.Forms.Label();
             this.body_temp = new System.Windows.Forms.TextBox();
             this.enterButton = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // name
@@ -232,12 +233,24 @@ namespace Contract_Tracing
             this.enterButton.UseVisualStyleBackColor = true;
             this.enterButton.Click += new System.EventHandler(this.enterButton_Click);
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(301, 350);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(60, 60);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Clear";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.clearButton);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(467, 437);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.enterButton);
             this.Controls.Add(this.body_temp);
             this.Controls.Add(this.bodytempLabel);
@@ -292,6 +305,7 @@ namespace Contract_Tracing
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button enterButton;
         private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.Button button2;
     }
 }
 
