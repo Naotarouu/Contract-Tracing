@@ -19,7 +19,7 @@ namespace Contract_Tracing
 
         }
 
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void clickShow(object sender, EventArgs e)
         {
             StreamReader outputFile = new StreamReader(Application.StartupPath + "\\forms\\" + "output.txt");
             richTextBox1.Text = outputFile.ReadToEnd();

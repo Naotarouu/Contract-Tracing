@@ -21,8 +21,10 @@ namespace Contract_Tracing
 
         private void enterButton_Click(object sender, EventArgs e)
         {
-            StreamWriter output = new StreamWriter(Application.StartupPath + "\\forms\\" + "output.txt");
-            output.WriteLine(name.Text + ":" + " " + first_name.Text + last_name.Text);
+            
+
+            StreamWriter output = File.CreateText(Application.StartupPath + "\\forms\\" + "output.txt");
+            output.WriteLine(name.Text + ":" + " " + first_name.Text + " " + last_name.Text);
             output.WriteLine();
             output.WriteLine(ageLabel.Text + ":" + " " + age.Text);
             output.WriteLine();
@@ -37,8 +39,8 @@ namespace Contract_Tracing
             output.WriteLine(timeLabel.Text + ":" + " " + time.Text);
             output.WriteLine();
             output.WriteLine(bodytempLabel.Text + ":" + " " + body_temp.Text);
-
             output.Close();
+
             this.Hide();
 
             Form2 form2 = new Form2();
