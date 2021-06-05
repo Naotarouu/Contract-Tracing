@@ -21,9 +21,25 @@ namespace Contract_Tracing
 
         private void enterButton_Click(object sender, EventArgs e)
         {
-            
+            String[] tracing = Directory.GetFiles(".", "Tracing Form *");
+            int latest = 0;
+            for (int i = 0; i < tracing.Length; i++)
+            {
+                string tracing_name = tracing[i];
+                tracing_name = tracing_name.Replace(".\\Tracing Form ", "");
+                tracing_name = tracing_name.Replace(".txt", "");
+                int count = int.Parse(tracing_name);
 
-            StreamWriter output = File.CreateText(Application.StartupPath + "\\forms\\" + "output.txt");
+                if (count > latest)
+                {
+                    latest = count;
+                }    
+
+            }
+
+            latest += 1;
+
+            StreamWriter output = File.CreateText(Application.StartupPath + "\\forms\\" + "Tracing Form " + latest + ".txt");
             output.WriteLine(name.Text + ":" + " " + first_name.Text + " " + last_name.Text);
             output.WriteLine();
             output.WriteLine(ageLabel.Text + ":" + " " + age.Text);

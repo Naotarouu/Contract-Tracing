@@ -44,9 +44,10 @@ namespace Contract_Tracing
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(277, 357);
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(280, 356);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(72, 34);
             this.button1.TabIndex = 1;
             this.button1.Text = "Show";
             this.button1.UseVisualStyleBackColor = true;
@@ -57,7 +58,7 @@ namespace Contract_Tracing
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(393, 392);
+            this.ClientSize = new System.Drawing.Size(387, 400);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.richTextBox1);
             this.MaximizeBox = false;
